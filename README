@@ -1,0 +1,20 @@
+# SupCrowdFunding project - A crowdfunding school project 
+
+----
+## What, What, What ...What ? 
+CrowdFunding app including Web app + REST API + Android app
+(this part contains only Web app + REST Api)
+> Allow people to create, manage, build a project by the crowd funding way !
+IT School project in JavaEE
+
+----
+## Used technologies
+1. JavaEE
+2. Hibernate
+3. Design Pattern MVC
+4. Bootstrap
+5. Morris.js
+
+
+## Developed by 
+* Thomas Brodusch, Johann Morales & Jean-FranÃ§ois Kervella, IT students at Supinfo Paris (France).
