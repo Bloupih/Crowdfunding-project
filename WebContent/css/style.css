@@ -1,0 +1,69 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+footer{ text-align:center;}
+
+/*Menu*/
+.navbar-header{
+	margin-right: 40px;
+}
+
+/*Navbar admin */
+
+#adminMenu{
+	opacity: 0.9;
+	width:14px;
+	transition: width 0.3s;
+}
+
+#adminMenu:hover{
+	width:250px;
+	transition: width 0.5s;
+}
+	#adminMenu i#button_hover{opacity:0.9;transition : opacity 0.3s;}
+	
+	#adminMenu:hover i#button_hover{opacity:0;}
+	
+/*ListProject view */
+#project, #category{
+	border-radius:3px;
+	border:1px solid #999;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#project{ height:342px;}
+	#project .badge , .progress{border-radius:3px !important;}
+	#project .badge a{ color: white;}
+	#project .objectif_price{
+		text-align:left;
+		background-color: rgba(0, 102, 255, 0.43);
+	}
+	#project #infos{min-height:225px !important; width:200px;}
+		#project #infos p.description{
+			min-height: 107px;
+			width:auto;
+		}
+		
+	
+/* showProject view*/
+#show_project {max-width:900px;}
+	#show_project #project_percent{text-align:center;}
+	#show_project button#contribute{
+		min-height: 80px;
+		max-width: 400px;
+		margin: 0 auto;
+	}
+	
+	#show_project #infos_state{
+		background-color: rgba(109, 186, 211, 0.33);
+		padding-bottom: 15px;
+		border-radius: 0 0 4px 4px;
+		text-align:center;
+	}
+	
+	
+	
